@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-size: inherit;
+}
+
+body {
+    font-size: 0;
+}
+
+.map-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+[data-dragging] {
+    cursor: grab;
+}
+
+[data-dragging=true] {
+    cursor: grabbing;
+}
+
+.debug {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    background: #000c;
+    color: #fff;
+    padding: 0.5em;
+}
